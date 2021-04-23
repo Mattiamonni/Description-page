@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Impara HTML</title>
+  </head>
+  <body class="body">
+    <nav id="navbar" class="navbar">
+      <header>Impara HTML</header>
+      <ul>
+        <li><a href="#Doctype" class="nav-link">Doctype</a></li>
+        <li><a href="#Head " class="nav-link">Head</a></li>
+        <li><a href="#Body" class="nav-link">Body</a></li>
+        <li><a href="#footer " class="nav-link">Footer</a></li>
+        <li><a href="#text" class="nav-link">H1, H2, H3...</a></li>
+        <li><a href="#a" class="nav-link">Tag a</a></li>
+        <li><a href="#header" class="nav-link">Header</a></li>
+      </ul>
+    </nav>
+
+    <main id="main_doc">
+      <section class="main-section" id="Doctype">
+        <header>
+          Doctype
+        </header>
+          <article>
+            <p>Doctype è alla base di tutte le pagine html.</p>
+            <p>E' bene precisare che</p>
+            <ul>
+              <li>Non è un tag HTML, ma un istruzione indirizzata al browser;</li>
+              <li>Questo non è case-sensitive, quindi non ci sono differenze se scritto in maiuscolo o minuscolo.</li>
+            </ul>
+          </article>
+      </section>
+
+    <section class="main-section" id="Head">
+      <header>
+        Head
+      </header>
+        <article>
+            <p>Head è la parte non visibile agli utenti.</p>
+            <p>Al suo interno sono presenti:</p>
+            <ul>
+              <li>Il title della pagina;</li>
+              <li>I link ai CSS e altri meta data;</li>
+              </ul>
+              <code>
+                head
+                title /title
+                /head
+              </code>
+        </article>
+      </section>
+      <section class="main-section" id="Body">
+        <header>Body</header>
+          <article>
+            <p>Body è la parte visibile della pagina html</p>
+            <p>All'interno di body si possono trovare elementi come:</p>
+            <ul>
+              <li>Tag img;</li>
+              <li>Tag link<li>
+              <li>Testi</li>
+            </ul>
+            Ecco un esempio:
+            <code>
+            body
+            h1 Hello World /h1
+            /body
+            </code>
+          </article>
+      </section>
+
+      <section class="main-section" id="footer">
+        <header>
+          Footer
+        </header>
+          <article>
+            <p>Il tag footer si trova nella parte inferiore della pagina</p>
+            <p>Viene usata per:</p>
+            <ul>
+              <li>Vedere i dati di copyright;</li>
+              <li>Collegamenti a documenti correlati;</li>
+              <li>Dati di chi ha scritto i contenuti;</li>
+            </ul>
+            <code>
+              footer
+                p copyright 2021 /p
+              /footer
+            </code>
+          </article>
+      </section>
+
+      <section class="main-section" id="text">
+        <header>
+          H1, H2, H3...
+        </header>
+          <article>
+            <p>Questi tag sono usati per inseriro il testo nella pagina html</p>
+            <p>Entriamo più nel dettaglio:</p>
+              <ul>
+                <li>H1 viene usato maggiormente per il titolo della pagina;</li>
+                <li>H2 viene usato per mettere un sottotitolo;</li>
+                <li>H3 può essere usato per inserire desto descrittivo oppure essere sostituito con il tag p</li>
+              </ul>
+              <code>
+                h1 Hello World /h1
+                h2 Benvenuti nella mia pagina /h2
+                h3 In questa pagina troverete tutte le cose essenziali nell'html /h3
+              </code>
+          </article>
+      </section>
+
+      <section class="main-section" id="a">
+        <header>
+            Tag a
+        </header>
+        <article>
+          <p>Il tag a è usato per creare collegamenti interni o esterni</p>
+          <p>Viene usato per:</p>
+          <ul>
+            <li>Collegare link interni della pagina per facilitare la navigazione all'interno;</li>
+            <li>Collegare link esterni come Wikipedia, youtube ecc..</li>
+          </ul>
+          <code>
+            a href="#Doctype" class="nav-link">Doctype /a
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="header">
+        <header>
+          Header
+        </header>
+          <article>
+            <p>Il tag header serve a rappresentare “un gruppo di ausili introduttivi o di navigazione.</p>
+            <p>E' un:</p>
+            <ul>
+              <li>Contenitore per altri elementi;</li>
+              <li>Non dev'essere confuso con head</li>
+            </ul>
+            <code>
+              header Titolo contenitore /header 
+            </code>
+          </article>
+      </section>
+
+
+
+
+    </main>
+
+
+
+
+  </body>
+</html>
